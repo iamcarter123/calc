@@ -172,36 +172,36 @@
             document.getElementById("result").value = ""
             console.log("c")
         }
-        
+
         document.addEventListener("keyup", function(event) {
-            if (event.keyCode === 96) {
+            if (event.keyCode === 96 || event.keyCode === 48) {
                 number("0")
             }
-            if (event.keyCode === 97) {
+            if (event.keyCode === 97 || event.keyCode === 49) {
                 number("1")
             }
-            if (event.keyCode === 98) {
+            if (event.keyCode === 98 || event.keyCode === 50) {
                 number("2")
             }
-            if (event.keyCode === 99) {
+            if (event.keyCode === 99 || event.keyCode === 51) {
                 number("3")
             }
-            if (event.keyCode === 100) {
+            if (event.keyCode === 100 || event.keyCode === 52) {
                 number("4")
             }
-            if (event.keyCode === 101) {
+            if (event.keyCode === 101 || event.keyCode === 53) {
                 number("5")
             }
-            if (event.keyCode === 102) {
+            if (event.keyCode === 102 || event.keyCode === 54) {
                 number("6")
             }
-            if (event.keyCode === 103) {
+            if (event.keyCode === 103 || event.keyCode === 55) {
                 number("7")
             }
-            if (event.keyCode === 104) {
+            if (event.keyCode === 104 || event.keyCode === 56) {
                 number("8")
             }
-            if (event.keyCode === 105) {
+            if (event.keyCode === 105 || event.keyCode === 57) {
                 number("9")
             }
             if (event.keyCode === 106) {
@@ -219,6 +219,7 @@
             if (event.keyCode === 13) {
                 solve()
             }
+
         });
     </script>
   </body>
