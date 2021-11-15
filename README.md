@@ -1,3 +1,5 @@
+# Számológép
+
 Egy nagyon egyszerűen haszálható számológép.
 
 **Funkciók**
@@ -6,4 +8,4 @@ Egy nagyon egyszerűen haszálható számológép.
 - Osztás
 - Szorzás
 
-Suli projekthez beadandónak tökéletes.
+> Suli projekthez beadandónak tökéletes.
